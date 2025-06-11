@@ -1,0 +1,22 @@
+{
+   "name": "@ctrlaltvers/tailwind-dev",
+   "version": "1.0.0",
+   "main": "index.js",
+   "scripts": {
+      "build": "npm run fontawesome",
+      "dev": "nodemon",
+      "fontawesome": "sass --no-source-map src/fontawesome.scss package/dist/fontawesome.css",
+      "css": "npx @tailwindcss/cli -i ./test/input.css -o ./test/output.css --watch"
+   },
+   "author": "CtrlAltVerse",
+   "license": "ISC",
+   "description": "",
+   "dependencies": {
+      "sass": "^1.89.2"
+   },
+   "devDependencies": {
+      "@tailwindcss/cli": "^4.1.8",
+      "nodemon": "^3.1.10",
+      "tailwindcss": "^4.1.8"
+   }
+}

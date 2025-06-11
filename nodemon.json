@@ -1,0 +1,6 @@
+{
+   "verbose": false,
+   "watch": ["./src/"],
+   "exec": "npm run build",
+   "ext": "*.scss,*.css"
+}

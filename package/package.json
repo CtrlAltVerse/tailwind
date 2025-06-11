@@ -1,0 +1,22 @@
+{
+   "name": "@ctrlaltvers/tailwind",
+   "author": "CtrlAltVerse (https://ctrl.altvers.net)",
+   "description": "Utility files for Tailwind 4",
+   "version": "1.0.0",
+   "homepage": "https://plugins.altvers.net/tailwind",
+   "keywords": [
+      "tailwind",
+      "fontawesome",
+      "plugin",
+      "icon"
+   ],
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/CtrlAltVerse/tailwind",
+      "directory": "package"
+   },
+   "bugs": {
+      "url": "https://github.com/CtrlAltVerse/tailwind/issues"
+   },
+   "license": "GPL-3.0-or-later"
+}

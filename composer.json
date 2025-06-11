@@ -1,0 +1,12 @@
+{
+   "name": "ctrlaltvers/tailwind",
+   "type": "project",
+   "authors": [
+      {
+         "name": "CtrlAltVerse"
+      }
+   ],
+   "require-dev": {
+      "fortawesome/font-awesome": "^6.7"
+   }
+}

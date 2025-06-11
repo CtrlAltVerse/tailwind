@@ -1,0 +1,4 @@
+@import 'tailwindcss' source(none);
+@import '../dist/fontawesome.css';
+
+@source './test.html';
