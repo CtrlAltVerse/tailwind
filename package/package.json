@@ -2,7 +2,7 @@
    "name": "@ctrlaltvers/tailwind",
    "author": "CtrlAltVerse (https://ctrl.altvers.net)",
    "description": "Utility files for Tailwind 4",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "homepage": "https://plugins.altvers.net/tailwind",
    "keywords": [
       "tailwind",
