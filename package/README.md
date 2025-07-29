@@ -10,9 +10,18 @@ npm i -D @ctrlaltvers/tailwind
 
 When using Font Awesome via CDN, can drastically reduce the size of CSS files.
 
-```js
+```css
 @import 'tailwindcss';
 @import '@ctrlaltvers/tailwind/dist/fontawesome';
 ```
 
 **Update note:** If using the old pulse animation class, replace `fa-pulse` with `fa-spin-pulse`.
+
+## Remix Icon
+
+Uses CDN via jsdelivr.net.
+
+```css
+@import 'tailwindcss';
+@import '@ctrlaltvers/tailwind/dist/remixicon';
+```

@@ -3,15 +3,17 @@
    "version": "1.0.0",
    "main": "index.js",
    "scripts": {
-      "build": "npm run fontawesome",
+      "build": "npm run fontawesome && npm run remixicon",
       "dev": "nodemon",
       "fontawesome": "sass --no-source-map src/fontawesome.scss package/dist/fontawesome.css",
-      "css": "npx @tailwindcss/cli -i ./test/input.css -o ./test/output.css --watch"
+      "test": "npx @tailwindcss/cli -i ./test/input.css -o ./test/output.css --watch",
+      "remixicon": "node src/remixicon.js"
    },
    "author": "CtrlAltVerse",
    "license": "ISC",
    "description": "",
    "dependencies": {
+      "remixicon": "^4.6.0",
       "sass": "^1.89.2"
    },
    "devDependencies": {

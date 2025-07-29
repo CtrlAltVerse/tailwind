@@ -1,5 +1,8 @@
+$fa-version-major: '6';
+$fa-version: '6.7.2';
 @import '../vendor/fortawesome/font-awesome/scss/_functions.scss';
-$fa-font-path: 'https://use.fontawesome.com/releases/v6.7.2/webfonts' !default;
+$fa-font-path: 'https://use.fontawesome.com/releases/v' + $fa-version +
+   '/webfonts' !default;
 @import '../vendor/fortawesome/font-awesome/scss/_variables.scss';
 @import '../vendor/fortawesome/font-awesome/scss/_mixins.scss';
 @import '../vendor/fortawesome/font-awesome/scss/_core.scss';
@@ -402,7 +405,7 @@ $fa-font-path: 'https://use.fontawesome.com/releases/v6.7.2/webfonts' !default;
 }
 
 @font-face {
-   font-family: 'Font Awesome 6 Free';
+   font-family: 'Font Awesome ' + $fa-version-major + ' Free';
    font-style: normal;
    font-weight: 400;
    font-display: swap;
@@ -411,7 +414,7 @@ $fa-font-path: 'https://use.fontawesome.com/releases/v6.7.2/webfonts' !default;
 }
 
 @font-face {
-   font-family: 'Font Awesome 6 Free';
+   font-family: 'Font Awesome ' + $fa-version-major + ' Free';
    font-style: normal;
    font-weight: 900;
    font-display: swap;
@@ -420,7 +423,7 @@ $fa-font-path: 'https://use.fontawesome.com/releases/v6.7.2/webfonts' !default;
 }
 
 @font-face {
-   font-family: 'Font Awesome 6 Brands';
+   font-family: 'Font Awesome ' + $fa-version-major + ' Brands';
    font-style: normal;
    font-weight: 400;
    font-display: swap;

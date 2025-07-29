@@ -1,4 +1,12 @@
 @import 'tailwindcss' source(none);
-@import '../dist/fontawesome.css';
+@import '../package/dist/fontawesome.css';
+@import '../package/dist/remixicon.css';
+
+@font-face {
+   font-family: 'remixicon';
+   src: url('../package/dist/remixicon.woff2?t=1734404658139') format('woff2'),
+      url('../package/dist/remixicon.ttf?t=1734404658139') format('truetype');
+   font-display: swap;
+}
 
 @source './test.html';
