@@ -5,7 +5,7 @@ function copyFiles() {
    const remix = path.resolve('.', 'node_modules', 'remixicon', 'fonts')
    const dist = path.resolve('.', 'package', 'dist')
 
-   const fonts = ['remixicon.ttf', 'remixicon.woff']
+   const fonts = ['remixicon.ttf', 'remixicon.woff2']
 
    fonts.forEach((file) => {
       fs.copyFile(`${remix}/${file}`, `${dist}/${file}`, (err) => {

@@ -2,8 +2,8 @@
    "name": "@ctrlaltvers/tailwind",
    "author": "CtrlAltVerse (https://ctrl.altvers.net)",
    "description": "Utility files for Tailwind 4",
-   "version": "1.1.0",
-   "homepage": "https://plugins.altvers.net/tailwind",
+   "version": "1.1.1",
+   "homepage": "https://www.npmjs.com/package/@ctrlaltvers/tailwind",
    "keywords": [
       "tailwind",
       "fontawesome",
